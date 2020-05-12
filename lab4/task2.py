@@ -16,7 +16,6 @@ def count(ip):
       d[k]=1
     else:
       d[k] +=1
-  #print(d)
   ct=Counter(d)
   first_twenty=ct.most_common(20)
   #print(first_twenty)
